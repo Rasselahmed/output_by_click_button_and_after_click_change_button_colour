@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    color: red;
+}
+
+.btnbox{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnbox button {
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightpink;
+    border-radius: 10px;
+    outline: none;
+    border: hidden;
+    
+}
+
+
+    
+
+.displaybox {
+    width: 82%;
+    padding: 50px;
+    height: 450px;
+    margin: auto;
+    margin-top: 25px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.hdn{
+    display: none;
+   
+}
+
+
